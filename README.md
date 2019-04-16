@@ -1,2 +1,2 @@
 # MultiplayerDraw
-@[Sample](nice.png)
+![Sample](nice.png)
