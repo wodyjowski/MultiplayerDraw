@@ -12,11 +12,7 @@ namespace MultiplayerDraw.Connection
     {
         private IPAddress currentIPAddress;
 
-        public ConnectionProvider()
-        {
-            var ipAddressv4 = Dns.GetHostEntry(Dns.GetHostName()).AddressList.FirstOrDefault(x => x.AddressFamily == AddressFamily.InterNetwork);
-            currentIPAddress = ipAddressv4; ;
-        }
+        public ConnectionProvider() => currentIPAddress = Dns.GetHostEntry(Dns.GetHostName()).AddressList.FirstOrDefault(x => x.AddressFamily == AddressFamily.InterNetwork);
 
         public IPAddress GetIPv4Address()
         {
