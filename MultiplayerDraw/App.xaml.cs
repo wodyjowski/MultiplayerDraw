@@ -9,7 +9,7 @@ using System.Windows;
 namespace MultiplayerDraw
 {
     /// <summary>
-    /// Interaction logic for App.xaml
+    /// Interaction logic for App.xaml hueheu
     /// </summary>
     public partial class App : Application
     {
