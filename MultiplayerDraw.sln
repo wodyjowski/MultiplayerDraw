@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplayerDraw", "MultiplayerDraw\MultiplayerDraw.csproj", "{A8998C53-63A9-43F5-8DCF-44DD3CB60DEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8998C53-63A9-43F5-8DCF-44DD3CB60DEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8998C53-63A9-43F5-8DCF-44DD3CB60DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8998C53-63A9-43F5-8DCF-44DD3CB60DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8998C53-63A9-43F5-8DCF-44DD3CB60DEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D2674B5-E0AE-4F99-8FFE-93AB80DC2279}
+	EndGlobalSection
+EndGlobal

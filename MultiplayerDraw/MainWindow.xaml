@@ -1,0 +1,16 @@
+﻿<Window x:Class="MultiplayerDraw.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MultiplayerDraw"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="460.356" Width="800" ResizeMode="NoResize" Background="#FF878787">
+    <Grid>
+        <Canvas x:Name="canvasDraw" Margin="0,0,0,45" MouseMove="Canvas_MouseMove" MouseDown="CanvasDraw_MouseDown" Background="White" MouseUp="CanvasDraw_MouseUp"/>
+        <Canvas HorizontalAlignment="Left" Height="100" Margin="874,400,-182,-81" VerticalAlignment="Top" Width="100"/>
+        <Button Content="Button" Margin="709,391,10,10" RenderTransformOrigin="0.478,0.803"/>
+
+
+    </Grid>
+</Window>
