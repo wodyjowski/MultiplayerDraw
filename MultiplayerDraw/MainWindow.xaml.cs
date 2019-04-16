@@ -72,5 +72,10 @@ namespace MultiplayerDraw
                 canvasDraw.Children.Clear();
             }
         }
+
+        private void ConnectButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

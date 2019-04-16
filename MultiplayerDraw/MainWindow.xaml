@@ -13,7 +13,7 @@
         </Grid.RowDefinitions>
         <Canvas x:Name="canvasDraw" MouseMove="Canvas_MouseMove" MouseDown="CanvasDraw_MouseDown" Background="White" MouseUp="CanvasDraw_MouseUp"/>
         <Canvas HorizontalAlignment="Left" Height="100" Margin="874,14,-180,-69" VerticalAlignment="Top" Width="100" Grid.Row="1"/>
-        <Button x:Name="connectButton" Content="Connect" Margin="709,5,10,10" RenderTransformOrigin="0.478,0.803" Grid.Row="1"/>
+        <Button x:Name="connectButton" Content="Connect" Margin="709,5,10,10" RenderTransformOrigin="0.478,0.803" Grid.Row="1" Click="ConnectButton_Click"/>
         <Label x:Name="networkLabel" Content="No network" HorizontalAlignment="Left" Margin="10,7,0,12" Grid.Row="1" Width="250" Foreground="#FFEAEA22"/>
         <TextBox x:Name="destinationTextBox" Margin="0,5,90,0" Grid.Row="1" TextWrapping="Wrap" HorizontalAlignment="Right" Width="313" Height="23" VerticalAlignment="Top"/>
 
