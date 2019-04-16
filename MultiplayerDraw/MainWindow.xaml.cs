@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MultiplayerDraw.Connection;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,6 +25,13 @@ namespace MultiplayerDraw
         public MainWindow()
         {
             InitializeComponent();
+            InitializeInterface();
+        }
+
+        private void InitializeInterface()
+        {
+            ConnectionProvider conp = new ConnectionProvider();
+            networkLabel.Content = conp.GetIPv4Address().ToString();
         }
 
         private void Canvas_MouseMove(object sender, MouseEventArgs e)
