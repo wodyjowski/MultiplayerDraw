@@ -15,7 +15,7 @@ namespace MultiplayerDraw.Connection
         public ConnectionProvider()
         {
             var ipAddressv4 = Dns.GetHostEntry(Dns.GetHostName()).AddressList.FirstOrDefault(x => x.AddressFamily == AddressFamily.InterNetwork);
-            currentIPAddress = ipAddressv4;
+            currentIPAddress = ipAddressv4; ;
         }
 
         public IPAddress GetIPv4Address()
